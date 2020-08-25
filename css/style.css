@@ -61,7 +61,7 @@ a {
 #scroll-section-0 h1 {
     font-size : 4rem;
     text-align: center;
-/*    padding-top : 50vh;*/
+    padding-top : 50vh;
 }
 .main-message {
     display: flex;
@@ -78,6 +78,12 @@ a {
     font-weight: bold;
     text-align: center;
 }
+
+.main-message small {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
 .description {
     font-size : 1.2rem;
     color: #888;
@@ -91,18 +97,14 @@ a {
     float: left;
     margin-right: 8.4px;
 }
-.main-message small {
-    display: block;
-    font-size: 1.2rem;
-    padding-bottom: 0.5em;
-}
 
 #scroll-section-2 .main-message {
     font-size : 3.5rem;
 }
 .desc-message {
     font-weight: bold;
-    width:50%;    
+    width:50%; 
+/*    opacity: 0;*/
 }
 .pin {
     width: 1px;
@@ -149,7 +151,7 @@ a {
     left : 0;
     width: 100%;
 }
-#scroll-section-2 
+
 #show-scene-0 #scroll-section-0 .sticky-elem,
 #show-scene-1 #scroll-section-1 .sticky-elem,
 #show-scene-2 #scroll-section-2 .sticky-elem,
